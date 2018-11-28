@@ -1,4 +1,4 @@
-# Watson STEM for Women ChatBot [![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
+# Watson Women in STEM ChatBot [![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
 
 
 This Node.js app demonstrates the [Watson Assistant](https://www.ibm.com/watson/services/conversation/) service in a simple chat interface while discussing STEM topics and Women in STEM.
