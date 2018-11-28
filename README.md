@@ -5,6 +5,40 @@ This Node.js app demonstrates the [Watson Assistant](https://www.ibm.com/watson/
 
 ## Getting started
 
+### Before you begin
+
+-  Ensure that you have an [IBM Cloud account][sign_up]. While you can do part of this deployment locally, you must still use IBM Cloud.
+
+<a name="returnlocal">
+</a>
+
+### Create the services
+
+1. In IBM Cloud, [create a Watson Assistant Service instance](https://console.bluemix.net/registration/?target=/catalog/services/conversation/).
+  * Create the [Service Credentials](#credentials).
+  * Launch the tool and create a new skill from the skill tab 
+  * [Import a skill](#workspace) using the `skills.json` file.
+
+2. In IBM Cloud, [create a Discovery Service instance](https://console.bluemix.net/registration/?target=/catalog/services/discovery/).
+  * Create the [Service Credentials](#credentials).
+  * [Ingest the documents into a new Discovery collection](#ingestion).
+
+### Building locally
+
+To build the application:
+
+1. Clone the repository
+   ```
+   git clone https://github.com/watson-developer-cloud/assistant-with-discovery
+   ```
+
+2. Navigate to the `assistant-with-discovery` folder
+
+3. For Windows, type `gradlew.bat build`. Otherwise, type `./gradlew build`.
+
+4. The built WAR file (watson-assistant-with-discovery-0.1-SNAPSHOT.war) is in the `assistant-with-discovery/build/libs/` folder.
+
+
 ### Configuring workspace
 
 The following steps are to optionally retrieve a workspace id and configure it for your application. If you do not configure a workspace id, the first workspace in your space will be used, or a new workspace will be created.
