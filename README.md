@@ -1,7 +1,7 @@
-# Watson Assistant Basic starter kit [![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
+# Watson STEM for Women ChatBot [![](https://img.shields.io/badge/bluemix-powered-blue.svg)](https://bluemix.net)
 
 
-This Node.js app demonstrates the [Watson Assistant](https://www.ibm.com/watson/services/conversation/) service in a simple chat interface simulating a cognitive car dashboard.
+This Node.js app demonstrates the [Watson Assistant](https://www.ibm.com/watson/services/conversation/) service in a simple chat interface while discussing STEM topics and Women in STEM.
 
 ## Getting started
 
@@ -45,30 +45,26 @@ After your app is installed and running, experiment with it to see how it respon
 
 The chat interface is on the left, and the JSON that the JavaScript code receives from the Watson Assistant service is on the right. Your questions and commands are interpreted using a small set of sample data trained with the following intents:
 
-    turn_on
-    turn_off
-    turn_up
-    turn_down
-    traffic_update
-    locate_amenity
-    weather
-    phone
-    capabilities
-    greetings
-    goodbyes
+    learn_stem
+    stem_importance
+    women_in_stem
+    factors_affecting_stem
+    general_greetings
+    general_endigns
+    general_jokes
 
-Type a request, such as `music on` or `I want to turn on the windshield wipers`. The system understands your intent and responds. You can see the details of how your input was understood by examining the JSON data in the `Watson understands` section on the right side.
+Type a request, such as `What is STEM` or `Tell me more about psychology`. The system understands your intent and responds. You can see the details of how your input was understood by examining the JSON data in the `Watson understands` section on the right side.
 
-For example, if you type `Turn on some music`, the JSON data shows that the system understood the `turn_on` intent with a high level of confidence, along with the `appliance` entity with a value of `music`.
+For example, if you type `Tell me more about Computer Science`, the JSON data shows that the system understood the `learn_stem` intent with a high level of confidence, along with the `science_branches` entity with a value of `computer science`.
 
 * Visit the documentation to learn more about [intents](https://console.bluemix.net/docs/services/conversation/intents.html#defining-intents) and [entities](https://console.bluemix.net/docs/services/conversation/entities.html#defining-entities)
 
-* Go to the tool to learn more about the Car Dashboard's intents, entities, and dialog.
+* Go to the tool to learn more about the Chatbot's intents, entities, and dialog.
   1. To launch the tool you need to return to your [Project List](https://console.bluemix.net/developer/watson/projects) and select your Watson Assistant Basic Project.
   2. Click on `Train Service` from the Service List, next to `Watson Assistant`.
   3. Log into the tool with your IBM Cloud login and password
-  4. Click on the Car Dashboard workspace
-  5. You will land on the `Intents` tab. Here you can view the intents such as `turn_on`, to modify these visit the [documentation](https://console.bluemix.net/docs/services/conversation/intents.html#editing-intents) for the service.
+  4. Click on the STEM for Women workspace
+  5. You will land on the `Intents` tab. Here you can view the intents such as `learn_stem`, to modify these visit the [documentation](https://console.bluemix.net/docs/services/conversation/intents.html#editing-intents) for the service.
   6. The next tab is where you can modify `entities` such as `appliance`. View the [documentation](https://console.bluemix.net/docs/services/conversation/entities.html#editing-entities) to learn how to modify.
   7. The third tab is for modifying the `dialog`. You can learn more about modifying `dialog` in the [documentation](https://console.bluemix.net/docs/services/conversation/dialog-build.html#dialog-build).
 
