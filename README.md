@@ -29,14 +29,8 @@ To build the application:
 
 1. Clone the repository
    ```
-   git clone https://github.com/watson-developer-cloud/assistant-with-discovery
+   git clone https://github.com/bedangSen/Watson-STEM-for-Women-ChatBot.git .
    ```
-
-2. Navigate to the `assistant-with-discovery` folder
-
-3. For Windows, type `gradlew.bat build`. Otherwise, type `./gradlew build`.
-
-4. The built WAR file (watson-assistant-with-discovery-0.1-SNAPSHOT.war) is in the `assistant-with-discovery/build/libs/` folder.
 
 
 ### Configuring workspace
