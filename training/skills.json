@@ -1,0 +1,5096 @@
+{
+  "name": "STEM for (Emirati) Woman",
+  "intents": [
+    {
+      "intent": "Bot_Control_Reject_Response",
+      "examples": [
+        {
+          "text": "Wrong response"
+        },
+        {
+          "text": "You did not understand what I asked"
+        },
+        {
+          "text": "That was not my intent"
+        },
+        {
+          "text": "That answer is incorrect"
+        },
+        {
+          "text": "Not the right response"
+        },
+        {
+          "text": "No"
+        },
+        {
+          "text": "No I'm fine thanks"
+        },
+        {
+          "text": "It is not what I was looking for"
+        },
+        {
+          "text": "It is not what I want"
+        },
+        {
+          "text": "I wasn't looking for that"
+        },
+        {
+          "text": "I don't want that"
+        },
+        {
+          "text": "I don't need that"
+        },
+        {
+          "text": "I do not think it is the answer?"
+        },
+        {
+          "text": "That sounds like the wrong response"
+        },
+        {
+          "text": "I disagree"
+        },
+        {
+          "text": "Bad response"
+        },
+        {
+          "text": "You're misunderstanding me"
+        },
+        {
+          "text": "You didn't understand me"
+        },
+        {
+          "text": "That is not true"
+        },
+        {
+          "text": "You did not understand what I said"
+        },
+        {
+          "text": "That was wrong, try again"
+        }
+      ],
+      "description": "Indicate the bot's response does not address a question."
+    },
+    {
+      "intent": "General_Positive_Feedback",
+      "examples": [
+        {
+          "text": "You are the best"
+        },
+        {
+          "text": "This is good"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "This is so cool"
+        },
+        {
+          "text": "You are awesome"
+        },
+        {
+          "text": "You are great"
+        },
+        {
+          "text": "You are wonderful"
+        },
+        {
+          "text": "You gave me exactly what I need!"
+        },
+        {
+          "text": "You the man"
+        },
+        {
+          "text": "You're a genius!"
+        },
+        {
+          "text": "You've been so helpful :)"
+        },
+        {
+          "text": "This is great"
+        },
+        {
+          "text": "Ok thank you"
+        },
+        {
+          "text": "Love your work"
+        },
+        {
+          "text": "I'm looking forward to working with you again! :)"
+        },
+        {
+          "text": "Wow that was great!"
+        },
+        {
+          "text": "I like what you did there! :)"
+        },
+        {
+          "text": "How cool is this?"
+        },
+        {
+          "text": "Can't believe you are that good"
+        },
+        {
+          "text": "Brilliant!"
+        }
+      ],
+      "description": "Express positive sentiment or gratitude."
+    },
+    {
+      "intent": "Bot_Control_Clarification",
+      "examples": [
+        {
+          "text": "Let's try to say that again more clearly, shall we?"
+        },
+        {
+          "text": "Can you say that again please?"
+        },
+        {
+          "text": "Come again?"
+        },
+        {
+          "text": "Explains"
+        },
+        {
+          "text": "What do you mean?"
+        },
+        {
+          "text": "What do you mean by that?"
+        },
+        {
+          "text": "What are you talking about?"
+        },
+        {
+          "text": "What are you saying?"
+        },
+        {
+          "text": "What are you referring to?"
+        },
+        {
+          "text": "I did not quite understand what you gave me"
+        },
+        {
+          "text": "I didn't catch that"
+        },
+        {
+          "text": "I didn't quite understand what you said"
+        },
+        {
+          "text": "I didn't understand that properly"
+        },
+        {
+          "text": "I don't get it"
+        },
+        {
+          "text": "I don't understand what you're saying"
+        },
+        {
+          "text": "I don't understand"
+        },
+        {
+          "text": "I need more information"
+        }
+      ],
+      "description": "Repeat or clarify last statement."
+    },
+    {
+      "intent": "factors_affecting_stem",
+      "examples": [
+        {
+          "text": "women in stem"
+        },
+        {
+          "text": "Tell me about the pschological reasons?"
+        },
+        {
+          "text": "Why are there less woman in stem"
+        },
+        {
+          "text": "Why do women not go into stem jobs"
+        },
+        {
+          "text": "What affects the number of women in stem"
+        },
+        {
+          "text": "why do women not go for stem higher education"
+        }
+      ],
+      "description": "Information regarding factors affecting woman in stem"
+    },
+    {
+      "intent": "General_Human_or_Bot",
+      "examples": [
+        {
+          "text": "Is this a computer?"
+        },
+        {
+          "text": "Are you a human or a bot?"
+        },
+        {
+          "text": "Are you a robot?"
+        },
+        {
+          "text": "Are you even real?"
+        },
+        {
+          "text": "Are you human?"
+        },
+        {
+          "text": "Are you real?"
+        },
+        {
+          "text": "How can you prove you are a human?"
+        },
+        {
+          "text": "Tell me, are you a human or no?"
+        },
+        {
+          "text": "Am I chatting with a human?"
+        },
+        {
+          "text": "Am I talking to Watson?"
+        },
+        {
+          "text": "Am I talking to a Bot?"
+        },
+        {
+          "text": "Am I talking to a person or am I talking to an AI?"
+        }
+      ],
+      "description": "Ask if speaking to a human or a bot."
+    },
+    {
+      "intent": "Bot_Control_Change_Subject",
+      "examples": [
+        {
+          "text": "Can we talk about something else?"
+        },
+        {
+          "text": "Talk about something else"
+        },
+        {
+          "text": "Let us talk about something else"
+        },
+        {
+          "text": "A different matter"
+        },
+        {
+          "text": "Another thing"
+        },
+        {
+          "text": "Change topic"
+        },
+        {
+          "text": "Chat about something else"
+        },
+        {
+          "text": "Discuss something else"
+        },
+        {
+          "text": "Help me with this other question"
+        },
+        {
+          "text": "Here is another issue"
+        },
+        {
+          "text": "I have one more question"
+        },
+        {
+          "text": "Let us change the topic"
+        }
+      ],
+      "description": "Change to a different topic."
+    },
+    {
+      "intent": "increasing_women_in_stem",
+      "examples": [
+        {
+          "text": "encourage women in stem"
+        },
+        {
+          "text": "more girls in stem"
+        },
+        {
+          "text": "How can I get involved in STEM"
+        },
+        {
+          "text": "How do I encourage women to get into STEM"
+        },
+        {
+          "text": "how can we increase the number of women in stem"
+        },
+        {
+          "text": "how to increase women in stem"
+        },
+        {
+          "text": "What are strategies for increasing women in stem"
+        }
+      ],
+      "description": "Increasing women in STEM"
+    },
+    {
+      "intent": "Bot_Control_Standby",
+      "examples": [
+        {
+          "text": "Can you wait for me?"
+        },
+        {
+          "text": "Can you give me a moment?"
+        },
+        {
+          "text": "Be patient with me"
+        },
+        {
+          "text": "Be back later"
+        },
+        {
+          "text": "Back again soon"
+        },
+        {
+          "text": "Just a sec"
+        },
+        {
+          "text": "Just hold on"
+        },
+        {
+          "text": "Keep holding"
+        },
+        {
+          "text": "Let me see"
+        },
+        {
+          "text": "Need a minute here"
+        },
+        {
+          "text": "Out for a break"
+        },
+        {
+          "text": "Wait"
+        },
+        {
+          "text": "Give me a moment"
+        },
+        {
+          "text": "In a moment"
+        },
+        {
+          "text": "I would like to put you on hold"
+        },
+        {
+          "text": "I will be back"
+        },
+        {
+          "text": "I want stop a moment"
+        },
+        {
+          "text": "Hold on"
+        },
+        {
+          "text": "Give me a second"
+        },
+        {
+          "text": "Give me a few minutes to get together"
+        }
+      ],
+      "description": "Indicate a delay in providing input to the bot."
+    },
+    {
+      "intent": "Bot_Control_Start_Over",
+      "examples": [
+        {
+          "text": "Let's go back to square one"
+        },
+        {
+          "text": "Back to the beginning"
+        },
+        {
+          "text": "Back to the top"
+        },
+        {
+          "text": "Begin over!"
+        },
+        {
+          "text": "We will need to begin again"
+        },
+        {
+          "text": "We need a do-over"
+        },
+        {
+          "text": "Start over"
+        },
+        {
+          "text": "Restart"
+        },
+        {
+          "text": "Please start a new chat"
+        },
+        {
+          "text": "Please reset"
+        },
+        {
+          "text": "Please initiate from the beginning"
+        },
+        {
+          "text": "One more time from the beginning"
+        },
+        {
+          "text": "How can I start over?"
+        },
+        {
+          "text": "I need to reset."
+        },
+        {
+          "text": "I want start from the beginning"
+        },
+        {
+          "text": "I would like to start all over"
+        },
+        {
+          "text": "Let us reopen this again."
+        },
+        {
+          "text": "Let's pick this up from the top again."
+        },
+        {
+          "text": "Can we please start over?"
+        },
+        {
+          "text": "Actually, let's start over"
+        }
+      ],
+      "description": "Restart bot or current flow."
+    },
+    {
+      "intent": "learn_stem",
+      "examples": [
+        {
+          "text": "I would like to learn about"
+        },
+        {
+          "text": "What are the different components in"
+        },
+        {
+          "text": "What does STEM stand for?"
+        },
+        {
+          "text": "What is"
+        },
+        {
+          "text": "Gene therapy"
+        },
+        {
+          "text": "Computer Science"
+        },
+        {
+          "text": "Biology"
+        },
+        {
+          "text": "3D printing"
+        },
+        {
+          "text": "I'd like to learn about"
+        },
+        {
+          "text": "Can you tell more more about"
+        },
+        {
+          "text": "STEM"
+        },
+        {
+          "text": "what is sceince tech math engineering"
+        },
+        {
+          "text": "What is science technology mathematics engineering"
+        },
+        {
+          "text": "Can you explain"
+        },
+        {
+          "text": "What can you tell me algebra"
+        },
+        {
+          "text": "Can you tell me more about"
+        }
+      ],
+      "description": "Learn about STEM and what the different components are"
+    },
+    {
+      "intent": "General_Security_Assurance",
+      "examples": [
+        {
+          "text": "Why would I trust this chat?"
+        },
+        {
+          "text": "Can I be sure that my stored card details are held securely?"
+        },
+        {
+          "text": "Conversation secure?"
+        },
+        {
+          "text": "Customer info secured?"
+        },
+        {
+          "text": "Do you have protection against hacks?"
+        },
+        {
+          "text": "How do I know if my card info is kept safe?"
+        },
+        {
+          "text": "How do I know this chat is not a scam?"
+        },
+        {
+          "text": "How is my credit card info secured?"
+        },
+        {
+          "text": "How safe is my data?"
+        },
+        {
+          "text": "What makes this chat trustworthy?"
+        },
+        {
+          "text": "What safety measures are used to ensure that chat is secure?"
+        },
+        {
+          "text": "Will my conversation remain secured?"
+        },
+        {
+          "text": "What guards do you have in place to protect your customer's data?"
+        },
+        {
+          "text": "Secure conversation?"
+        },
+        {
+          "text": "Protection hacks?"
+        },
+        {
+          "text": "Precautions hackers?"
+        },
+        {
+          "text": "Is this conversation secure?"
+        },
+        {
+          "text": "Is this an official chat?"
+        },
+        {
+          "text": "Is this a trusted chat site?"
+        },
+        {
+          "text": "Is there a reason to distrust this chat?"
+        },
+        {
+          "text": "Is my payment information secure?"
+        },
+        {
+          "text": "Is my card info secure?"
+        },
+        {
+          "text": "In what way can I tell if my plastic is safe?"
+        },
+        {
+          "text": "I'd like proof of a secure chat"
+        },
+        {
+          "text": "Are you safe on hackers?"
+        },
+        {
+          "text": "Are you safe?"
+        }
+      ],
+      "description": "Express concerns about the security of the bot."
+    },
+    {
+      "intent": "General_Agent_Capabilities",
+      "examples": [
+        {
+          "text": "What are my options that you can help with?"
+        },
+        {
+          "text": "What are you able to understand?"
+        },
+        {
+          "text": "What are you capable of?"
+        },
+        {
+          "text": "What are you good at?"
+        },
+        {
+          "text": "How can you solve my problems?"
+        },
+        {
+          "text": "How do I use you?"
+        },
+        {
+          "text": "I do not know what to ask"
+        },
+        {
+          "text": "I'd like to know what type of questions you can answer for me."
+        },
+        {
+          "text": "Is there anything you can help me with?"
+        },
+        {
+          "text": "Tell me about what kind of things you do?"
+        },
+        {
+          "text": "Tell me something"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "What are you used for?"
+        },
+        {
+          "text": "What are your skills?"
+        },
+        {
+          "text": "What can I ask you to do?"
+        },
+        {
+          "text": "What do you do?"
+        },
+        {
+          "text": "What do you handle?"
+        },
+        {
+          "text": "What else can you help me with?"
+        },
+        {
+          "text": "What features are in here?"
+        },
+        {
+          "text": "What is this 4?"
+        },
+        {
+          "text": "What kinds of things can you do?"
+        },
+        {
+          "text": "Where can I find the frequently asked questions?"
+        },
+        {
+          "text": "What are you able to deal with?"
+        },
+        {
+          "text": "Can you please give me a list of the types of things you can help me with?"
+        },
+        {
+          "text": "Can you tell me what services you are able to help me with?"
+        },
+        {
+          "text": "Do you have a list of things I can talk to you about?"
+        },
+        {
+          "text": "Help now"
+        },
+        {
+          "text": "Hi, what do you do?"
+        },
+        {
+          "text": "How can I use you?"
+        },
+        {
+          "text": "How can you help me?"
+        }
+      ],
+      "description": "Request capabilities of the bot."
+    },
+    {
+      "intent": "Women_in_stem",
+      "examples": [
+        {
+          "text": "Name some women in stem?"
+        },
+        {
+          "text": "Role models in"
+        },
+        {
+          "text": "Accomplished women in"
+        },
+        {
+          "text": "What have women done in"
+        },
+        {
+          "text": "What have women accomplished in"
+        },
+        {
+          "text": "Notable women in"
+        },
+        {
+          "text": "Are there any woman in"
+        },
+        {
+          "text": "Tell me about women in"
+        }
+      ],
+      "description": "Examples of famous women in stem"
+    },
+    {
+      "intent": "Bot_Control_Approve_Response",
+      "examples": [
+        {
+          "text": "Indeed!"
+        },
+        {
+          "text": "Yeah, that's it!"
+        },
+        {
+          "text": "That is the proper response."
+        },
+        {
+          "text": "That is right"
+        },
+        {
+          "text": "That is precisely what I was looking for"
+        },
+        {
+          "text": "Sweet"
+        },
+        {
+          "text": "Sure thing!"
+        },
+        {
+          "text": "That is what I need"
+        },
+        {
+          "text": "I like that"
+        },
+        {
+          "text": "I agree"
+        },
+        {
+          "text": "Great"
+        },
+        {
+          "text": "Got it"
+        },
+        {
+          "text": "For sure!"
+        },
+        {
+          "text": "Correct"
+        },
+        {
+          "text": "All right"
+        },
+        {
+          "text": "Affirmative. That's what I'm looking for."
+        },
+        {
+          "text": "You read my mind"
+        },
+        {
+          "text": "Yes"
+        },
+        {
+          "text": "That's exactly what I want"
+        },
+        {
+          "text": "This is alright"
+        },
+        {
+          "text": "Very well. Let's do it."
+        }
+      ],
+      "description": "Acknowledge that the response satisfies a question."
+    },
+    {
+      "intent": "General_About_You",
+      "examples": [
+        {
+          "text": "How can I configure you?"
+        },
+        {
+          "text": "Do you know who you are?"
+        },
+        {
+          "text": "Do you have a name?"
+        },
+        {
+          "text": "Describe your self"
+        },
+        {
+          "text": "Tell me something about yourself"
+        },
+        {
+          "text": "Tell me about your life"
+        },
+        {
+          "text": "Let us talk about you"
+        },
+        {
+          "text": "Introduce your self"
+        },
+        {
+          "text": "I want to set up the chat bot for my shop"
+        },
+        {
+          "text": "What languages do you speak?"
+        },
+        {
+          "text": "What should I know about you?"
+        },
+        {
+          "text": "What's your name?"
+        },
+        {
+          "text": "Where are you from?"
+        },
+        {
+          "text": "Where were you born?"
+        },
+        {
+          "text": "About you"
+        },
+        {
+          "text": "Why are you here?"
+        },
+        {
+          "text": "Who are you?"
+        },
+        {
+          "text": "How old are you?"
+        },
+        {
+          "text": "How do you function?"
+        },
+        {
+          "text": "Can I use another language?"
+        }
+      ],
+      "description": "Request generic personal attributes."
+    },
+    {
+      "intent": "General_Jokes",
+      "examples": [
+        {
+          "text": "Do you have a joke?"
+        },
+        {
+          "text": "What is your favorite joke?"
+        },
+        {
+          "text": "What do you do for fun?"
+        },
+        {
+          "text": "Another joke"
+        },
+        {
+          "text": "Are there jokes?"
+        },
+        {
+          "text": "Can you tell a joke?"
+        },
+        {
+          "text": "Can you tell me a joke?"
+        },
+        {
+          "text": "Do you like fun?"
+        },
+        {
+          "text": "Tell me something funny"
+        },
+        {
+          "text": "Tell me a joke"
+        },
+        {
+          "text": "Surprise me with something hilarious"
+        },
+        {
+          "text": "One more joke"
+        },
+        {
+          "text": "Do you have humor?"
+        },
+        {
+          "text": "Do you like humor?"
+        },
+        {
+          "text": "I am getting bored"
+        },
+        {
+          "text": "I want a joke"
+        },
+        {
+          "text": "I'm bored"
+        }
+      ],
+      "description": "Request a joke."
+    },
+    {
+      "intent": "General_Negative_Feedback",
+      "examples": [
+        {
+          "text": "You do not seem smart"
+        },
+        {
+          "text": "You are very frustrating"
+        },
+        {
+          "text": "You are on my nerves"
+        },
+        {
+          "text": "You are having delusions"
+        },
+        {
+          "text": "Why are you stupid?"
+        },
+        {
+          "text": "Stupid"
+        },
+        {
+          "text": "Robots are stupid"
+        },
+        {
+          "text": "Robots are boring"
+        },
+        {
+          "text": "Quit annoying me"
+        },
+        {
+          "text": "It is annoying"
+        },
+        {
+          "text": "I hate you"
+        },
+        {
+          "text": "I hate this!"
+        },
+        {
+          "text": "I do not like you"
+        },
+        {
+          "text": "Hate you"
+        },
+        {
+          "text": "Everyone hates you"
+        },
+        {
+          "text": "Do not like you?"
+        },
+        {
+          "text": "Why are you so annoying?"
+        },
+        {
+          "text": "You're really frustrating"
+        },
+        {
+          "text": "You're really irritating"
+        },
+        {
+          "text": "You're too stupid"
+        }
+      ],
+      "description": "Express unfavorable feedback."
+    },
+    {
+      "intent": "General_Connect_to_Agent",
+      "examples": [
+        {
+          "text": "How can I skip the recorded menu and go straight to a live person?"
+        },
+        {
+          "text": "I don't want to talk to a bot."
+        },
+        {
+          "text": "I don't want to talk to you"
+        },
+        {
+          "text": "I need to speak to a representative. How would I go about doing so?"
+        },
+        {
+          "text": "I want a manager"
+        },
+        {
+          "text": "I want agent"
+        },
+        {
+          "text": "I want an agent to help me"
+        },
+        {
+          "text": "I want to talk to a person"
+        },
+        {
+          "text": "I would like to speak to a human"
+        },
+        {
+          "text": "I would like to speak to someone"
+        },
+        {
+          "text": "Is there anyone there I can actually talk to for real?"
+        },
+        {
+          "text": "Need help from human"
+        },
+        {
+          "text": "Operator please"
+        },
+        {
+          "text": "Please assist me to get to an agent"
+        },
+        {
+          "text": "Please connect me to a live agent"
+        },
+        {
+          "text": "Please let me talk to a human being."
+        },
+        {
+          "text": "Pls connect"
+        },
+        {
+          "text": "Put me through to someone"
+        },
+        {
+          "text": "Send me to an agent"
+        },
+        {
+          "text": "Where is the closest agent?"
+        },
+        {
+          "text": "Yes, take me to a real person"
+        },
+        {
+          "text": "Hi can you transfer me"
+        },
+        {
+          "text": "Do not want a robot?"
+        },
+        {
+          "text": "Customer service representative please."
+        },
+        {
+          "text": "Could you please transfer me to your master?"
+        },
+        {
+          "text": "Contact person"
+        },
+        {
+          "text": "Connect me to a live operator please."
+        },
+        {
+          "text": "Can you connect me with a real person?"
+        },
+        {
+          "text": "Can you assist me to connect to an agent?"
+        },
+        {
+          "text": "Can I talk to someone?"
+        },
+        {
+          "text": "Can I speak with somebody?"
+        },
+        {
+          "text": "Can I speak to an advisor?"
+        },
+        {
+          "text": "Can I speak to a live person?"
+        },
+        {
+          "text": "Can I speak to a human please?"
+        },
+        {
+          "text": "Can I connect to an agent?"
+        },
+        {
+          "text": "Call agent"
+        },
+        {
+          "text": "Agent help"
+        },
+        {
+          "text": "A real agent, please."
+        }
+      ],
+      "description": "Request a human agent."
+    },
+    {
+      "intent": "Bot_Control_Confirm_Presence",
+      "examples": [
+        {
+          "text": "Are you on?"
+        },
+        {
+          "text": "Are you there?"
+        },
+        {
+          "text": "Are you still here with me?"
+        },
+        {
+          "text": "Are you still around?"
+        },
+        {
+          "text": "You around?"
+        },
+        {
+          "text": "Am I talking to someone?"
+        },
+        {
+          "text": "Anyone there?"
+        },
+        {
+          "text": "Are you leaving me?"
+        },
+        {
+          "text": "Where'd you go?"
+        },
+        {
+          "text": "Speak to me if you are there."
+        },
+        {
+          "text": "Is anybody home?"
+        },
+        {
+          "text": "Is anybody here?"
+        },
+        {
+          "text": "I am still holding"
+        },
+        {
+          "text": "Have I lost you?"
+        },
+        {
+          "text": "Did you hear what I said?"
+        },
+        {
+          "text": "Did you go somewhere?"
+        }
+      ],
+      "description": "Ask the bot to indicate that it is available."
+    },
+    {
+      "intent": "General_Greetings",
+      "examples": [
+        {
+          "text": "How are you today?"
+        },
+        {
+          "text": "Hello Agent"
+        },
+        {
+          "text": "Ok take me back"
+        },
+        {
+          "text": "What's new?"
+        },
+        {
+          "text": "What's up?"
+        },
+        {
+          "text": "Who is this?"
+        },
+        {
+          "text": "Good day"
+        },
+        {
+          "text": "How have you been?"
+        },
+        {
+          "text": "Have you been well?"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good to see you"
+        },
+        {
+          "text": "Good evening"
+        },
+        {
+          "text": "How is it going?"
+        },
+        {
+          "text": "How r u?"
+        },
+        {
+          "text": "Looking good eve"
+        },
+        {
+          "text": "You there"
+        },
+        {
+          "text": "Hello I am looking for some help here"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hey how are you doing"
+        },
+        {
+          "text": "Hey there all"
+        },
+        {
+          "text": "Hey there"
+        },
+        {
+          "text": "Hey twin"
+        },
+        {
+          "text": "Hey you"
+        },
+        {
+          "text": "Hi advisor"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "How are things going?"
+        }
+      ],
+      "description": "Greet the bot."
+    },
+    {
+      "intent": "General_Ending",
+      "examples": [
+        {
+          "text": "Goodbye"
+        },
+        {
+          "text": "Hey bot go away"
+        },
+        {
+          "text": "I have got to go"
+        },
+        {
+          "text": "I want to quit"
+        },
+        {
+          "text": "I'm done"
+        },
+        {
+          "text": "Im done"
+        },
+        {
+          "text": "Im good thank you"
+        },
+        {
+          "text": "I'm leaving now"
+        },
+        {
+          "text": "It was nice chatting with you"
+        },
+        {
+          "text": "Go away"
+        },
+        {
+          "text": "Get lost"
+        },
+        {
+          "text": "Finished now, good bye"
+        },
+        {
+          "text": "Ending this session"
+        },
+        {
+          "text": "End trial"
+        },
+        {
+          "text": "Cya later"
+        },
+        {
+          "text": "Catch you later"
+        },
+        {
+          "text": "Bye now"
+        },
+        {
+          "text": "Bye bye"
+        },
+        {
+          "text": "See you later"
+        },
+        {
+          "text": "Ok goodbye"
+        },
+        {
+          "text": "Time to go"
+        },
+        {
+          "text": "That's everything"
+        },
+        {
+          "text": "That is all"
+        },
+        {
+          "text": "Thanks very much, bye!"
+        },
+        {
+          "text": "Thanks, bye!"
+        },
+        {
+          "text": "Thank you for your time"
+        },
+        {
+          "text": "Stop talking to me"
+        },
+        {
+          "text": "Stop doing this"
+        },
+        {
+          "text": "Shut up"
+        },
+        {
+          "text": "Go off"
+        },
+        {
+          "text": "See you"
+        },
+        {
+          "text": "Going now"
+        },
+        {
+          "text": "Good. bye."
+        },
+        {
+          "text": "Have a nice day?"
+        },
+        {
+          "text": "I am leaving"
+        },
+        {
+          "text": "I am out of here"
+        },
+        {
+          "text": "I d like to stop doing this"
+        }
+      ],
+      "description": "End the conversation."
+    },
+    {
+      "intent": "Bot_Control_Ignore_Undo",
+      "examples": [
+        {
+          "text": "It's not what I mean"
+        },
+        {
+          "text": "Ignore this"
+        },
+        {
+          "text": "I didn't mean to do that actually, let's go back"
+        },
+        {
+          "text": "Actually, I take that back"
+        },
+        {
+          "text": "Cancel"
+        },
+        {
+          "text": "Hold on! I think I want to do it differently."
+        },
+        {
+          "text": "I change my mind."
+        },
+        {
+          "text": "I did not mean that?"
+        },
+        {
+          "text": "Let us redo that again!"
+        },
+        {
+          "text": "Never mind"
+        },
+        {
+          "text": "Never"
+        },
+        {
+          "text": "Not yet"
+        },
+        {
+          "text": "Nothing"
+        },
+        {
+          "text": "Wait! Let's back up few steps and do that again"
+        }
+      ],
+      "description": "Ask the bot to take one step back."
+    },
+    {
+      "intent": "stem_importance",
+      "examples": [
+        {
+          "text": "how is stem important?"
+        },
+        {
+          "text": "What is the importance of stem"
+        },
+        {
+          "text": "Why stem"
+        },
+        {
+          "text": "Why are stem subjects together"
+        },
+        {
+          "text": "Why is stem clustered together?"
+        },
+        {
+          "text": "stem importance"
+        }
+      ],
+      "description": "Learn about why STEM is important"
+    },
+    {
+      "intent": "Bot_Control_Unsure",
+      "examples": [
+        {
+          "text": "You got me"
+        },
+        {
+          "text": "I don t know what you need"
+        },
+        {
+          "text": "I don t know what you want"
+        },
+        {
+          "text": "I have no idea, actually"
+        },
+        {
+          "text": "I have no idea what you are looking for"
+        },
+        {
+          "text": "I haven't got a clue"
+        },
+        {
+          "text": "I m not certain I get what you re saying"
+        },
+        {
+          "text": "I m not sure what will make you happy"
+        },
+        {
+          "text": "I m not yet convinced"
+        },
+        {
+          "text": "No clue"
+        },
+        {
+          "text": "No idea"
+        },
+        {
+          "text": "To be honest, I m really not sure"
+        }
+      ],
+      "description": "Indicate no definite answer to a question."
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-percentage",
+      "values": []
+    },
+    {
+      "entity": "factors_for_women_in_STEM",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "innate explanations",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "societal",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "psychological",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    },
+    {
+      "entity": "Mathematics_branches",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "geometry",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "algebra",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "analysis",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "arithmetic",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "science_branches",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Biology",
+          "synonyms": [
+            "Bio"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "chemistry",
+          "synonyms": [
+            "Chem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "computer science",
+          "synonyms": [
+            "Comp",
+            "Comp Sci",
+            "CS",
+            "Computer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sociology",
+          "synonyms": [
+            "Sociology"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "psychology",
+          "synonyms": [
+            "Psych"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "physics",
+          "synonyms": [
+            "Phy"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "economics",
+          "synonyms": [
+            "Eco"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "engineering_branches",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Software engineering",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Aerospace engineering",
+          "synonyms": [
+            "Aeronautics"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mechanical engineering",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Electrical engineering",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Civil engineering",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "Chemical engineering",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "technology_branches",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Artificial intelligence",
+          "synonyms": [
+            "AI",
+            "Machine Learning",
+            "Deep learning"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Robotics",
+          "synonyms": [
+            "Robots"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Nanotechnology",
+          "synonyms": [
+            "Nano tech",
+            "Nano"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "3D Printing",
+          "synonyms": [
+            "3D",
+            "3D Print"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Cancer vaccines",
+          "synonyms": [
+            "cancer"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Gene therapy",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "stem_components",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "math",
+          "synonyms": [
+            "Mathematic",
+            "mathematics",
+            "maths"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "science",
+          "synonyms": [
+            "sci"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "technology",
+          "synonyms": [
+            "tech"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "engineering",
+          "synonyms": [
+            "engg",
+            "Engineering"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Technology Intro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Technology is the collection of techniques, skills, methods, and processes used in the production of goods or services or in the accomplishment of objectives, such as scientific investigation. Technology can be the knowledge of techniques, processes, and the like, or it can be embedded in machines to allow for operation without detailed knowledge of their workings."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Some new emerging technology, you might be interested in are...",
+            "options": [
+              {
+                "label": "Artificial intelligence",
+                "value": {
+                  "input": {
+                    "text": "Artificial intelligence"
+                  }
+                }
+              },
+              {
+                "label": "3D Printing",
+                "value": {
+                  "input": {
+                    "text": "3D Printing"
+                  }
+                }
+              },
+              {
+                "label": "Gene therapy",
+                "value": {
+                  "input": {
+                    "text": "Gene therapy"
+                  }
+                }
+              },
+              {
+                "label": "Cancer vaccines",
+                "value": {
+                  "input": {
+                    "text": "Cancer vaccines"
+                  }
+                }
+              },
+              {
+                "label": "Nanotechnology",
+                "value": {
+                  "input": {
+                    "text": "Nanotechnology"
+                  }
+                }
+              },
+              {
+                "label": "Robotics",
+                "value": {
+                  "input": {
+                    "text": "Robotics"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_18_1543237771625",
+      "metadata": {},
+      "conditions": "@stem_components:technology",
+      "dialog_node": "node_28_1543237771642",
+      "previous_sibling": "node_19_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Engineering Intro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Engineering is the creative application of science, mathematical methods, and empirical evidence to the innovation, design, construction, operation and maintenance of structures, machines, materials, devices, systems, processes, and organizations for the benefit of humankind. The discipline of engineering encompasses a broad range of more specialized fields of engineering, each with a more specific emphasis on particular areas of applied mathematics, applied science, and types of application."
+              },
+              {
+                "text": "The American Engineers' Council for Professional Development (ECPD, the predecessor of ABET)[2] has defined \"engineering\" as: <br><br> <i>The creative application of scientific principles to design or develop structures, machines, apparatus, or manufacturing processes, or works utilizing them singly or in combination; or to construct or operate the same with full cognizance of their design; or to forecast their behavior under specific operating conditions; all as respects an intended function, economics of operation and safety to life and property.</i>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Different branches of Engineering",
+            "options": [
+              {
+                "label": "Chemical engineering",
+                "value": {
+                  "input": {
+                    "text": "Chemical engineering"
+                  }
+                }
+              },
+              {
+                "label": "Civil engineering",
+                "value": {
+                  "input": {
+                    "text": "Civil engineering"
+                  }
+                }
+              },
+              {
+                "label": "Electrical engineering",
+                "value": {
+                  "input": {
+                    "text": "Electrical engineering"
+                  }
+                }
+              },
+              {
+                "label": "Mechanical engineering",
+                "value": {
+                  "input": {
+                    "text": "Mechanical engineering"
+                  }
+                }
+              },
+              {
+                "label": "Aerospace engineering",
+                "value": {
+                  "input": {
+                    "text": "Aerospace engineering"
+                  }
+                }
+              },
+              {
+                "label": "Software engineering",
+                "value": {
+                  "input": {
+                    "text": "Software engineering"
+                  }
+                }
+              }
+            ],
+            "description": "What would you like to look into next?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_18_1543237771625",
+      "metadata": {},
+      "conditions": "@stem_components:engineering",
+      "dialog_node": "node_35_1543237771642",
+      "previous_sibling": "node_28_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Mathematics Intro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The science that studies and explains numbers, quantities, measurements, and the relations between them."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Different branches of Mathematics",
+            "options": [
+              {
+                "label": "Arithmetic",
+                "value": {
+                  "input": {
+                    "text": "arithmetic"
+                  }
+                }
+              },
+              {
+                "label": "Algebra",
+                "value": {
+                  "input": {
+                    "text": "algebra"
+                  }
+                }
+              },
+              {
+                "label": "Geometry",
+                "value": {
+                  "input": {
+                    "text": "geometry"
+                  }
+                }
+              },
+              {
+                "label": "Analysis",
+                "value": {
+                  "input": {
+                    "text": "analysis"
+                  }
+                }
+              }
+            ],
+            "description": "What would you like to look into next?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_18_1543237771625",
+      "metadata": {},
+      "conditions": "@stem_components:math",
+      "dialog_node": "node_42_1543237771642",
+      "previous_sibling": "node_35_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Science Intro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are have been several women who have made major contributions to science over the years. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Learn more about the contributions women have made in the following fields of science",
+            "options": [
+              {
+                "label": "biology",
+                "value": {
+                  "input": {
+                    "text": "Biology"
+                  }
+                }
+              },
+              {
+                "label": "chemistry",
+                "value": {
+                  "input": {
+                    "text": "Chemistry"
+                  }
+                }
+              },
+              {
+                "label": "physics",
+                "value": {
+                  "input": {
+                    "text": "Physics"
+                  }
+                }
+              },
+              {
+                "label": "psychology",
+                "value": {
+                  "input": {
+                    "text": "Psychology"
+                  }
+                }
+              },
+              {
+                "label": "sociology",
+                "value": {
+                  "input": {
+                    "text": "Sociology"
+                  }
+                }
+              },
+              {
+                "label": "economics",
+                "value": {
+                  "input": {
+                    "text": "Economics"
+                  }
+                }
+              },
+              {
+                "label": "computer science",
+                "value": {
+                  "input": {
+                    "text": "Computer Science"
+                  }
+                }
+              }
+            ],
+            "description": "",
+            "response_type": "option"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_18_1543237771625",
+      "metadata": {},
+      "conditions": "@stem_components:science",
+      "dialog_node": "node_19_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Physics",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Physics is the natural science that studies matter and its motion and behavior through space and time and that studies the related entities of energy and force."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Physics is one of the most fundamental scientific disciplines, and its main goal is to understand how the universe behaves."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Physics\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1543237771642",
+      "metadata": {},
+      "conditions": "@science_branches:physics",
+      "dialog_node": "node_25_1543237771642",
+      "previous_sibling": "node_24_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Economics",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Economics is the social science that studies the production, distribution, and consumption of goods and services."
+              },
+              {
+                "text": "Economics focuses on the behaviour and interactions of economic agents and how economies work."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Microeconomics analyzes basic elements in the economy, including individual agents and markets, their interactions, and the outcomes of interactions"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Economics\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1543237771642",
+      "metadata": {},
+      "conditions": "@science_branches:economics",
+      "dialog_node": "node_24_1543237771642",
+      "previous_sibling": "node_23_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Computer Science",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Theoretical computer science (TCS) is a subset of general computer science and mathematics that focuses on more mathematical topics of computing and includes the theory of computation."
+              },
+              {
+                "text": "TCS covers a wide variety of topics including algorithms, data structures, computational complexity, parallel and distributed computation, probabilistic computation, quantum computation, automata theory, information theory, cryptography, program semantics and verification, machine learning, computational biology, computational economics, computational geometry, and computational number theory and algebra. Work in this field is often distinguished by its emphasis on mathematical technique and rigor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Theoretical_computer_science\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1543237771642",
+      "metadata": {},
+      "conditions": "@science_branches:(computer science)",
+      "dialog_node": "node_21_1543237771642",
+      "previous_sibling": "node_20_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Chemistry",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chemistry is the scientific discipline involved with elements and compounds composed of atoms, molecules and ions: their composition, structure, properties, behavior and the changes they undergo during a reaction with other substances"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "In the scope of its subject, chemistry occupies an intermediate position between physics and biology."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "It is sometimes called the central science because it provides a foundation for understanding both basic and applied scientific disciplines at a fundamental level."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Chemistry\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1543237771642",
+      "metadata": {},
+      "conditions": "@science_branches:chemistry",
+      "dialog_node": "node_26_1543237771642",
+      "previous_sibling": "node_25_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Biology",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Biology is the natural science that studies life and living organisms, including their physical structure, chemical processes, molecular interactions, physiological mechanisms, development and evolution."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Biology\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1543237771642",
+      "metadata": {},
+      "conditions": "@science_branches:Biology",
+      "dialog_node": "node_27_1543237771642",
+      "previous_sibling": "node_26_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Psychology",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Psychology is the science of behavior and mind, including conscious and unconscious phenomena, as well as feeling and thought. It is an academic discipline of immense scope and diverse interests that, when taken together, seek an understanding of the emergent properties of brains, and all the variety of epiphenomena they manifest."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " As a social science it aims to understand individuals and groups by establishing general principles and researching specific cases."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Psychology\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1543237771642",
+      "metadata": {},
+      "conditions": "@science_branches:psychology",
+      "dialog_node": "node_23_1543237771642",
+      "previous_sibling": "node_22_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Sociology",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sociology is the scientific study of society, patterns of social relationships, social interaction, and culture of everyday life."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Sociology\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " It is a social science that uses various methods of empirical investigation[4] and critical analysis to develop a body of knowledge about social order, acceptance, and change or social evolution. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_19_1543237771642",
+      "metadata": {},
+      "conditions": "@science_branches:sociology",
+      "dialog_node": "node_22_1543237771642",
+      "previous_sibling": "node_21_1543237771642"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_19_1543237771642",
+      "metadata": {},
+      "dialog_node": "node_20_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_34_1543215131176",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_23_1543363856071"
+      },
+      "conditions": "true",
+      "dialog_node": "node_22_1543363851062"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1543224211826",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_17_1543363761111"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_29_1543215128502",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_28_1543364048103"
+    },
+    {
+      "type": "standard",
+      "title": "Electrical engineering",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Electrical engineering is the design, study, and manufacture of various electrical and electronic systems, such as Broadcast engineering, electrical circuits, generators, motors, electromagnetic/electromechanical devices, electronic devices, electronic circuits, optical fibers, optoelectronic devices, computer systems, telecommunications, instrumentation, controls, and electronics."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Electrical_engineering\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1543215131176",
+      "metadata": {},
+      "conditions": "@engineering_branches:(Electrical engineering)",
+      "dialog_node": "node_35_1543215131176",
+      "previous_sibling": "node_34_1543215131176"
+    },
+    {
+      "type": "standard",
+      "title": "Civil engineering",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Civil engineering is the design and construction of public and private works, such as infrastructure (airports, roads, railways, water supply, and treatment etc.), bridges, tunnels, dams, and buildings. Civil engineering is traditionally broken into a number of sub-disciplines, including structural engineering, environmental engineering, and surveying. It is traditionally considered to be separate from military engineering"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Civil_engineering\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1543215131176",
+      "metadata": {},
+      "conditions": "@engineering_branches:(Civil engineering)",
+      "dialog_node": "node_34_1543215131176",
+      "previous_sibling": "node_33_1543215131176"
+    },
+    {
+      "type": "standard",
+      "title": "Chemical engineering",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chemical engineering is the application of physics, chemistry, biology, and engineering principles in order to carry out chemical processes on a commercial scale, such as the manufacture of commodity chemicals, specialty chemicals, petroleum refining, microfabrication, fermentation, and biomolecule production."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Chemical_engineering\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1543215131176",
+      "metadata": {},
+      "conditions": "@engineering_branches:(Chemical engineering)",
+      "dialog_node": "node_33_1543215131176",
+      "previous_sibling": "node_31_1543215131176"
+    },
+    {
+      "type": "standard",
+      "title": "Mechanical engineering",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mechanical engineering is the design and manufacture of physical or mechanical systems, such as power and energy systems, aerospace/aircraft products, weapon systems, transportation products, engines, compressors, powertrains, kinematic chains, vacuum technology, vibration isolation equipment, manufacturing, and mechatronics."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Mechanical_engineering\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1543215131176",
+      "metadata": {},
+      "conditions": "@engineering_branches:(Mechanical engineering)",
+      "dialog_node": "node_31_1543215131176",
+      "previous_sibling": "node_32_1543215131176"
+    },
+    {
+      "type": "standard",
+      "title": "Software engineering",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Software engineering the application of a systematic, disciplined, quantifiable approach to the development, operation and maintenance of software and the study of these approaches; that is, the application of engineering and computer science to software."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Theoretical_computer_science\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1543215131176",
+      "metadata": {},
+      "conditions": "@engineering_branches:(Software engineering)",
+      "dialog_node": "node_36_1543215131176",
+      "previous_sibling": "node_35_1543215131176"
+    },
+    {
+      "type": "standard",
+      "title": "Aerospace engineering",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aerospace systems such as aircraft, spacecraft and ground control systems, primarily on the systems level. Often categorized within vehicle engineering.\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_30_1543215131176",
+      "metadata": {},
+      "conditions": "@engineering_branches:(Aerospace engineering)",
+      "dialog_node": "node_32_1543215131176"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_33_1543215131176",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_21_1543363845857"
+    },
+    {
+      "type": "standard",
+      "title": "Connect to human",
+      "output": {
+        "text": {
+          "values": [
+            "You can ask my creator! He is the one giving the demo right now! ",
+            "Maybe you should ask the guy giving the demo? He is pretty smart! ",
+            "Alright I will forward this message to my creator... "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1543221944490",
+      "metadata": {},
+      "conditions": "#General_Connect_to_Agent",
+      "dialog_node": "node_10_1543222075083"
+    },
+    {
+      "type": "standard",
+      "title": "Nanotechnology",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nanotechnology (sometimes shortened to nanotech) is the manipulation of matter on an atomic, molecular, and supramolecular scale."
+              },
+              {
+                "text": "The earliest, widespread description of nanotechnology referred to the particular technological goal of precisely manipulating atoms and molecules for fabrication of macroscale products, also now referred to as molecular nanotechnology."
+              },
+              {
+                "text": "Nanotechnology as the manipulation of matter with at least one dimension sized from 1 to 100 nanometers. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "This definition reflects the fact that quantum mechanical effects are important at this quantum-realm scale, and so the definition shifted from a particular technological goal to a research category inclusive of all types of research and technologies that deal with the special properties of matter that occur below the given size threshold."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Nanotechnology\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1543237771642",
+      "metadata": {},
+      "conditions": "@technology_branches:Nanotechnology",
+      "dialog_node": "node_30_1543237771642",
+      "previous_sibling": "node_29_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Cancer vaccines",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A cancer vaccine is a vaccine that treats existing cancer or prevents the development of cancer in certain high-risk individuals. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Vaccines that treat existing cancer are known as therapeutic cancer vaccines. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Cancer_vaccine\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1543237771642",
+      "metadata": {},
+      "conditions": "@technology_branches:(Cancer vaccines)",
+      "dialog_node": "node_32_1543237771642",
+      "previous_sibling": "node_31_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Artificial intelligence",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "3D printing is any of various processes in which material is joined or solidified under computer control to create a three-dimensional object, with material being added together (such as liquid molecules or powder grains being fused together)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Artificial intelligence (AI) is the sub intelligence exhibited by machines or software, and the branch of computer science that develops machines and software with animal-like intelligence. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "The central problems (or goals) of AI research include reasoning, knowledge, planning, learning, natural language processing (communication), perception and the ability to move and manipulate objects."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Artificial_intelligence\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1543237771642",
+      "metadata": {},
+      "conditions": "@technology_branches:(Artificial intelligence)",
+      "dialog_node": "node_34_1543237771642",
+      "previous_sibling": "node_33_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Gene therapy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In the medicine field, gene therapy (also called human gene transfer) is the therapeutic delivery of nucleic acid into a patient's cells as a drug to treat disease."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Gene_therapy\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1543237771642",
+      "metadata": {},
+      "conditions": "@technology_branches:(Gene therapy)",
+      "dialog_node": "node_31_1543237771642",
+      "previous_sibling": "node_30_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "3D printing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "3D printing is any of various processes in which material is joined or solidified under computer control to create a three-dimensional object, with material being added together (such as liquid molecules or powder grains being fused together)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "3D printing is used in both rapid prototyping and additive manufacturing. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/3D_printing\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1543237771642",
+      "metadata": {},
+      "conditions": "@technology_branches:(3D Printing)",
+      "dialog_node": "node_33_1543237771642",
+      "previous_sibling": "node_32_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Robotics",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Robotics is the branch of technology that deals with the design, construction, operation, and application of robots,[30] as well as computer systems for their control, sensory feedback, and information processing. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "These technologies deal with automated machines that can take the place of humans in dangerous environments or manufacturing processes, or resemble humans in appearance, behavior, and/or cognition."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Robotics\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_28_1543237771642",
+      "metadata": {},
+      "conditions": "@technology_branches:Robotics",
+      "dialog_node": "node_29_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_7_1543214995268",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_8_1543363483227"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_23_1543215128502",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_25_1543364038581"
+    },
+    {
+      "type": "standard",
+      "title": "Psychology",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Psychology is the science of behavior and mind, including conscious and unconscious phenomena, as well as feeling and thought. It is an academic discipline of immense scope and diverse interests that, when taken together, seek an understanding of the emergent properties of brains, and all the variety of epiphenomena they manifest."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " As a social science it aims to understand individuals and groups by establishing general principles and researching specific cases."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Psychology\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1543211954662",
+      "metadata": {},
+      "conditions": "@science_branches:psychology",
+      "dialog_node": "node_11_1543215007167",
+      "previous_sibling": "node_7_1543214995268"
+    },
+    {
+      "type": "standard",
+      "title": "Chemistry",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chemistry is the scientific discipline involved with elements and compounds composed of atoms, molecules and ions: their composition, structure, properties, behavior and the changes they undergo during a reaction with other substances"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "In the scope of its subject, chemistry occupies an intermediate position between physics and biology."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "It is sometimes called the central science because it provides a foundation for understanding both basic and applied scientific disciplines at a fundamental level."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Chemistry\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1543211954662",
+      "metadata": {},
+      "conditions": "@science_branches:chemistry",
+      "dialog_node": "node_9_1543215003384",
+      "previous_sibling": "node_10_1543215005270"
+    },
+    {
+      "type": "standard",
+      "title": "Physics",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Physics is the natural science that studies matter and its motion and behavior through space and time and that studies the related entities of energy and force."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Physics is one of the most fundamental scientific disciplines, and its main goal is to understand how the universe behaves."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Physics\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1543211954662",
+      "metadata": {},
+      "conditions": "@science_branches:physics",
+      "dialog_node": "node_10_1543215005270",
+      "previous_sibling": "node_8_1543215000352"
+    },
+    {
+      "type": "standard",
+      "title": "Sociology",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sociology is the scientific study of society, patterns of social relationships, social interaction, and culture of everyday life."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Sociology\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": " It is a social science that uses various methods of empirical investigation[4] and critical analysis to develop a body of knowledge about social order, acceptance, and change or social evolution. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1543211954662",
+      "metadata": {},
+      "conditions": "@science_branches:sociology",
+      "dialog_node": "node_7_1543214995268",
+      "previous_sibling": "node_6_1543214985196"
+    },
+    {
+      "type": "standard",
+      "title": "Economics",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Economics is the social science that studies the production, distribution, and consumption of goods and services."
+              },
+              {
+                "text": "Economics focuses on the behaviour and interactions of economic agents and how economies work."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Microeconomics analyzes basic elements in the economy, including individual agents and markets, their interactions, and the outcomes of interactions"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Economics\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1543211954662",
+      "metadata": {},
+      "conditions": "@science_branches:economics",
+      "dialog_node": "node_8_1543215000352",
+      "previous_sibling": "node_11_1543215007167"
+    },
+    {
+      "type": "standard",
+      "title": "Biology",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Biology is the natural science that studies life and living organisms, including their physical structure, chemical processes, molecular interactions, physiological mechanisms, development and evolution."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Biology\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1543211954662",
+      "metadata": {},
+      "conditions": "@science_branches:Biology",
+      "dialog_node": "node_3_1543214907970",
+      "previous_sibling": "node_9_1543215003384"
+    },
+    {
+      "type": "standard",
+      "title": "Computer Science",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Theoretical computer science (TCS) is a subset of general computer science and mathematics that focuses on more mathematical topics of computing and includes the theory of computation."
+              },
+              {
+                "text": "TCS covers a wide variety of topics including algorithms, data structures, computational complexity, parallel and distributed computation, probabilistic computation, quantum computation, automata theory, information theory, cryptography, program semantics and verification, machine learning, computational biology, computational economics, computational geometry, and computational number theory and algebra. Work in this field is often distinguished by its emphasis on mathematical technique and rigor."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Theoretical_computer_science\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_2_1543211954662",
+      "metadata": {},
+      "conditions": "@science_branches:(computer science)",
+      "dialog_node": "node_6_1543214985196"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_31_1543215131176",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_20_1543363840684"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_24_1543215128502",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_26_1543364043568"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_25_1543215128502",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_27_1543364046013"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_3_1543214907970",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_13_1543363641116"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_36_1543215131176",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_23_1543363856071"
+      },
+      "conditions": "true",
+      "dialog_node": "node_24_1543363860896"
+    },
+    {
+      "type": "standard",
+      "title": "Mathematics Intro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "The science that studies and explains numbers, quantities, measurements, and the relations between them."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Different branches of Mathematics",
+            "options": [
+              {
+                "label": "Arithmetic",
+                "value": {
+                  "input": {
+                    "text": "arithmetic"
+                  }
+                }
+              },
+              {
+                "label": "Algebra",
+                "value": {
+                  "input": {
+                    "text": "algebra"
+                  }
+                }
+              },
+              {
+                "label": "Geometry",
+                "value": {
+                  "input": {
+                    "text": "geometry"
+                  }
+                }
+              },
+              {
+                "label": "Analysis",
+                "value": {
+                  "input": {
+                    "text": "analysis"
+                  }
+                }
+              }
+            ],
+            "description": "What would you like to look into next?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1543207382186",
+      "metadata": {},
+      "conditions": "@stem_components:math || @Mathematics_branches",
+      "dialog_node": "node_21_1543215128501",
+      "previous_sibling": "node_30_1543215131176"
+    },
+    {
+      "type": "standard",
+      "title": "Technology Intro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Technology is the collection of techniques, skills, methods, and processes used in the production of goods or services or in the accomplishment of objectives, such as scientific investigation. Technology can be the knowledge of techniques, processes, and the like, or it can be embedded in machines to allow for operation without detailed knowledge of their workings."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Some new emerging technology, you might be interested in are...",
+            "options": [
+              {
+                "label": "Artificial intelligence",
+                "value": {
+                  "input": {
+                    "text": "Artificial intelligence"
+                  }
+                }
+              },
+              {
+                "label": "3D Printing",
+                "value": {
+                  "input": {
+                    "text": "3D Printing"
+                  }
+                }
+              },
+              {
+                "label": "Gene therapy",
+                "value": {
+                  "input": {
+                    "text": "Gene therapy"
+                  }
+                }
+              },
+              {
+                "label": "Cancer vaccines",
+                "value": {
+                  "input": {
+                    "text": "Cancer vaccines"
+                  }
+                }
+              },
+              {
+                "label": "Nanotechnology",
+                "value": {
+                  "input": {
+                    "text": "Nanotechnology"
+                  }
+                }
+              },
+              {
+                "label": "Robotics",
+                "value": {
+                  "input": {
+                    "text": "Robotics"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1543207382186",
+      "metadata": {},
+      "conditions": "@stem_components:technology || @technology_branches",
+      "dialog_node": "node_12_1543215092236",
+      "previous_sibling": "node_2_1543211954662"
+    },
+    {
+      "type": "slot",
+      "parent": "node_1_1543207382186",
+      "dialog_node": "slot_3_1543361819706",
+      "previous_sibling": "node_21_1543215128501"
+    },
+    {
+      "type": "standard",
+      "title": "Engineering Intro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Engineering is the creative application of science, mathematical methods, and empirical evidence to the innovation, design, construction, operation and maintenance of structures, machines, materials, devices, systems, processes, and organizations for the benefit of humankind. The discipline of engineering encompasses a broad range of more specialized fields of engineering, each with a more specific emphasis on particular areas of applied mathematics, applied science, and types of application."
+              },
+              {
+                "text": "The American Engineers' Council for Professional Development (ECPD, the predecessor of ABET)[2] has defined \"engineering\" as: <br><br> <i>The creative application of scientific principles to design or develop structures, machines, apparatus, or manufacturing processes, or works utilizing them singly or in combination; or to construct or operate the same with full cognizance of their design; or to forecast their behavior under specific operating conditions; all as respects an intended function, economics of operation and safety to life and property.</i>"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Different branches of Engineering",
+            "options": [
+              {
+                "label": "Chemical engineering",
+                "value": {
+                  "input": {
+                    "text": "Chemical engineering"
+                  }
+                }
+              },
+              {
+                "label": "Civil engineering",
+                "value": {
+                  "input": {
+                    "text": "Civil engineering"
+                  }
+                }
+              },
+              {
+                "label": "Electrical engineering",
+                "value": {
+                  "input": {
+                    "text": "Electrical engineering"
+                  }
+                }
+              },
+              {
+                "label": "Mechanical engineering",
+                "value": {
+                  "input": {
+                    "text": "Mechanical engineering"
+                  }
+                }
+              },
+              {
+                "label": "Aerospace engineering",
+                "value": {
+                  "input": {
+                    "text": "Aerospace engineering"
+                  }
+                }
+              },
+              {
+                "label": "Software engineering",
+                "value": {
+                  "input": {
+                    "text": "Software engineering"
+                  }
+                }
+              }
+            ],
+            "description": "What would you like to look into next?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1543207382186",
+      "metadata": {},
+      "conditions": "@stem_components:engineering || @engineering_branches",
+      "dialog_node": "node_30_1543215131176",
+      "previous_sibling": "node_12_1543215092236"
+    },
+    {
+      "type": "response_condition",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "STEM is a curriculum based on the idea of educating students in four specific disciplines — <b>science, technology, engineering and mathematics</b> — in an interdisciplinary and applied approach. Rather than teach the four disciplines as separate and discrete subjects, STEM integrates them into a cohesive learning paradigm based on real-world applications."
+              },
+              {
+                "text": "STEM stands for Science, Technology, Engineering and Math. It’s a philosophy of education that embraces teaching skills and subjects in an a way that resembles real life."
+              },
+              {
+                "text": " The term is typically used when addressing education policy and curriculum choices in schools to improve competitiveness in science and technology development"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Stem components",
+            "options": [
+              {
+                "label": "Science",
+                "value": {
+                  "input": {
+                    "text": "Science"
+                  }
+                }
+              },
+              {
+                "label": "Technology",
+                "value": {
+                  "input": {
+                    "text": "Technology"
+                  }
+                }
+              },
+              {
+                "label": "Engineering",
+                "value": {
+                  "input": {
+                    "text": "Engineering"
+                  }
+                }
+              },
+              {
+                "label": "Math",
+                "value": {
+                  "input": {
+                    "text": "Mathematics"
+                  }
+                }
+              }
+            ],
+            "description": "Learn about the different STEM components",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1543207382186",
+      "metadata": {},
+      "dialog_node": "node_2_1543361819649",
+      "previous_sibling": "slot_3_1543361819706"
+    },
+    {
+      "type": "standard",
+      "title": "Science Intro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Science consists simply of the formulation and testing of hypotheses based on observational evidence; experiments are important where applicable, but their function is merely to simplify observation by imposing controlled conditions."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Science involves more than the gaining of knowledge. It is the systematic and organized inquiry into the natural world and its phenomena. Science is about gaining a deeper and often useful understanding of the world."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Modern science is typically divided into three major branches that consist of the natural sciences (e.g., biology, chemistry, and physics), which study nature in the broadest sense; the social sciences (e.g., economics, psychology, and sociology), which study individuals and societies; and the formal sciences (e.g., logic, mathematics, and theoretical computer science), which study abstract concepts."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Different branches of Science",
+            "options": [
+              {
+                "label": "biology",
+                "value": {
+                  "input": {
+                    "text": "Biology"
+                  }
+                }
+              },
+              {
+                "label": "chemistry",
+                "value": {
+                  "input": {
+                    "text": "Chemistry"
+                  }
+                }
+              },
+              {
+                "label": "physics",
+                "value": {
+                  "input": {
+                    "text": "Physics"
+                  }
+                }
+              },
+              {
+                "label": "psychology",
+                "value": {
+                  "input": {
+                    "text": "Psychology"
+                  }
+                }
+              },
+              {
+                "label": "sociology",
+                "value": {
+                  "input": {
+                    "text": "Sociology"
+                  }
+                }
+              },
+              {
+                "label": "economics",
+                "value": {
+                  "input": {
+                    "text": "Economics"
+                  }
+                }
+              },
+              {
+                "label": "computer science",
+                "value": {
+                  "input": {
+                    "text": "Computer Science"
+                  }
+                }
+              }
+            ],
+            "description": "What would you like to look into next?",
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "node_1_1543207382186",
+      "metadata": {},
+      "conditions": "@stem_components:science || @science_branches",
+      "dialog_node": "node_2_1543211954662"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_32_1543215131176",
+      "metadata": {},
+      "conditions": "true",
+      "dialog_node": "node_19_1543363835257"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_12_1543224159607",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_16_1543363752546"
+    },
+    {
+      "type": "standard",
+      "title": "Innate versus learned skill",
+      "output": {
+        "text": {
+          "values": [
+            "Some studies propose the explanation that STEM fields (and especially fields like physics, math and philosophy) are considered by both teachers and students to require more innate talent than skills that can be learned. Combined with a tendency to view women as having less of the required innate abilities, researchers propose this can result in assessing women as less qualified for STEM positions. In a study done by Ellis, Fosdick and Rasmussen, it was concluded that without strong skills in calculus, women cannot perform as well as their male counterparts in any field of STEM, which leads to the fewer women pursuing a career in these fields. A high percentage of women that do pursue a career in STEM do not continue on this pathway after taking Calculus I, which was found to be a class that weeds out students from the STEM pathway."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_48_1543238650530",
+      "metadata": {},
+      "conditions": "@factors_for_women_in_STEM:(innate explanations)",
+      "dialog_node": "node_50_1543241631774",
+      "previous_sibling": "node_51_1543241633910"
+    },
+    {
+      "type": "standard",
+      "title": "Psychological",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Lack of interest</b>\nA meta-analysis concluded that men prefer working with things and women prefer working with people. When interests were classified by RIASEC type (Realistic, Investigative, Artistic, Social, Enterprising, Conventional), men showed stronger Realistic and Investigative interests, and women showed stronger Artistic, Social, and Conventional interests. Sex differences favoring men were also found for more specific measures of engineering, science, and mathematics interests.["
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<b>Lack of confidence</b>\nResearch has found that women steer away from STEM fields because they believe they are not qualified for them. One of the factors behind girls' lack of confidence might be unqualified or ineffective teachers. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<b>Stereotype threat</b>\nStereotype threat arises from the fear that one's actions will confirm a negative stereotype about one's in-group. This fear creates additional stress, consuming valuable cognitive resources and lowering task performance in the threatened domain."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_48_1543238650530",
+      "metadata": {},
+      "conditions": "@factors_for_women_in_STEM:psychological",
+      "dialog_node": "node_51_1543241633910",
+      "previous_sibling": "node_49_1543238905731"
+    },
+    {
+      "type": "standard",
+      "title": "Societal",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "<b>Discrimination</b>\nDiscrimination, both overt and covert, faced by women in STEM fields leads to fewer women in STEM fields."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<b>Stereotypes</b>\nStereotypes about what someone in a STEM field should look and act like may cause established members of these fields to overlook individuals who are highly competent. The stereotypical scientist or individual in another STEM profession is usually thought to be male. Women in STEM fields may not fit individuals' conception of what a scientist, engineer, or mathematician \"should\" look like and may thus be overlooked or penalized."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<b>Black Sheep effect</b>\nThe Black Sheep effect occurs when individuals are likely to evaluate members of their in-group more favorably than members of their out-group when those members are highly qualified. However, when an individual's in-group members have average or below average qualities, he or she is likely to evaluate them much lower than out-group members with equivalent qualifications. This suggests that established women in STEM fields will be more likely than established men to help early career women who display sufficient qualifications. However, established women will be less likely than men to help early career women who display insufficient qualifications."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<b>Queen Bee effect</b>\nThe Queen Bee effect is similar to the Black Sheep effect but applies only to women. It explains why higher-status women, particularly in male-dominated professions, may actually be far less likely to help other women than their male colleagues might be. One potential explanation for this finding is that individual mobility for a member of a negatively stereotyped group is often accompanied by a social and psychological distancing of oneself from the group. This implies that successful women in traditionally male-dominated careers do not see their success as evidence that negative stereotypes about women's quantitative and analytical abilities are wrong, but rather as proof that they personally are exceptions to the rule. Thus, such women may actually play a role in perpetuating, rather than abolishing, these negative stereotypes."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<b>Mentorship</b>\nIn STEM fields, the support and encouragement of a mentor can make a lot of difference in women's decisions of whether or not to continue pursuing a career in their discipline. This may be particularly true for younger individuals who may face many obstacles early on in their careers. Since these younger individuals often look to those who are more established in their discipline for help and guidance, the responsiveness and helpfulness of potential mentors is incredibly important."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_48_1543238650530",
+      "metadata": {},
+      "conditions": "@factors_for_women_in_STEM:societal",
+      "dialog_node": "node_49_1543238905731"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1543224062820",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_15_1543363746907"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_10_1543215005270",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_11_1543363627075"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_8_1543215000352",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_10_1543363614057"
+    },
+    {
+      "type": "standard",
+      "title": "Algebra",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Algebra is the study of mathematical symbols and the rules for manipulating these symbols and is a unifying thread of almost all of mathematics."
+              },
+              {
+                "text": "Algebra is one of the broad parts of mathematics, together with number theory, geometry and analysis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Arithmetic\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1543215128501",
+      "metadata": {},
+      "conditions": "@Mathematics_branches:algebra",
+      "dialog_node": "node_24_1543215128502",
+      "previous_sibling": "node_23_1543215128502"
+    },
+    {
+      "type": "standard",
+      "title": "Geometry",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Geometry is a branch of mathematics concerned with questions of shape, size, relative position of figures, and the properties of space. "
+              },
+              {
+                "text": "A mathematician who works in the field of geometry is called a geometer."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Geometry\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1543215128501",
+      "metadata": {},
+      "conditions": "@Mathematics_branches:geometry",
+      "dialog_node": "node_25_1543215128502",
+      "previous_sibling": "node_24_1543215128502"
+    },
+    {
+      "type": "standard",
+      "title": "Mathematical analysis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mathematical analysis is the branch of mathematics dealing with limits and related theories, such as differentiation, integration, measure, infinite series, and analytic functions."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Mathematical_analysis\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1543215128501",
+      "metadata": {},
+      "conditions": "@Mathematics_branches:analysis",
+      "dialog_node": "node_29_1543215128502",
+      "previous_sibling": "node_25_1543215128502"
+    },
+    {
+      "type": "standard",
+      "title": "Arithmetic",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Arithmetic is a branch of mathematics that consists of the study of numbers, especially the properties of the traditional operations on them—addition, subtraction, multiplication and division."
+              },
+              {
+                "text": "Arithmetic is an elementary part of number theory, and number theory is considered to be one of the top-level divisions of modern mathematics, along with algebra, geometry, and analysis. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Arithmetic\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_21_1543215128501",
+      "metadata": {},
+      "conditions": "@Mathematics_branches:arithmetic",
+      "dialog_node": "node_23_1543215128502"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_15_1543224418323",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_18_1543363771534"
+    },
+    {
+      "type": "standard",
+      "title": "True",
+      "output": {
+        "text": {
+          "values": [       
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_6_1543214985196",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_6_1543361904184"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_11_1543215007167",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_9_1543363510666"
+    },
+    {
+      "type": "standard",
+      "title": "Mathematical analysis",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mathematical analysis is the branch of mathematics dealing with limits and related theories, such as differentiation, integration, measure, infinite series, and analytic functions."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Mathematical_analysis\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_42_1543237771642",
+      "metadata": {},
+      "conditions": "@Mathematics_branches:analysis",
+      "dialog_node": "node_47_1543237771642",
+      "previous_sibling": "node_46_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Arithmetic",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Arithmetic is a branch of mathematics that consists of the study of numbers, especially the properties of the traditional operations on them—addition, subtraction, multiplication and division."
+              },
+              {
+                "text": "Arithmetic is an elementary part of number theory, and number theory is considered to be one of the top-level divisions of modern mathematics, along with algebra, geometry, and analysis. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Arithmetic\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_42_1543237771642",
+      "metadata": {},
+      "conditions": "@Mathematics_branches:arithmetic",
+      "dialog_node": "node_44_1543237771642",
+      "previous_sibling": "node_43_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Algebra",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Algebra is the study of mathematical symbols and the rules for manipulating these symbols and is a unifying thread of almost all of mathematics."
+              },
+              {
+                "text": "Algebra is one of the broad parts of mathematics, together with number theory, geometry and analysis."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Arithmetic\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_42_1543237771642",
+      "metadata": {},
+      "conditions": "@Mathematics_branches:algebra",
+      "dialog_node": "node_45_1543237771642",
+      "previous_sibling": "node_44_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Geometry",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Geometry is a branch of mathematics concerned with questions of shape, size, relative position of figures, and the properties of space. "
+              },
+              {
+                "text": "A mathematician who works in the field of geometry is called a geometer."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Geometry\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_42_1543237771642",
+      "metadata": {},
+      "conditions": "@Mathematics_branches:geometry",
+      "dialog_node": "node_46_1543237771642",
+      "previous_sibling": "node_45_1543237771642"
+    },
+    {
+      "type": "standard",
+      "output": {},
+      "parent": "node_42_1543237771642",
+      "metadata": {},
+      "dialog_node": "node_43_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Electrical engineering",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Electrical engineering is the design, study, and manufacture of various electrical and electronic systems, such as Broadcast engineering, electrical circuits, generators, motors, electromagnetic/electromechanical devices, electronic devices, electronic circuits, optical fibers, optoelectronic devices, computer systems, telecommunications, instrumentation, controls, and electronics."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Electrical_engineering\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_35_1543237771642",
+      "metadata": {},
+      "conditions": "@engineering_branches:(Electrical engineering)",
+      "dialog_node": "node_40_1543237771642",
+      "previous_sibling": "node_39_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Mechanical engineering",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Mechanical engineering is the design and manufacture of physical or mechanical systems, such as power and energy systems, aerospace/aircraft products, weapon systems, transportation products, engines, compressors, powertrains, kinematic chains, vacuum technology, vibration isolation equipment, manufacturing, and mechatronics."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Mechanical_engineering\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_35_1543237771642",
+      "metadata": {},
+      "conditions": "@engineering_branches:(Mechanical engineering)",
+      "dialog_node": "node_37_1543237771642",
+      "previous_sibling": "node_36_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Software engineering",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Software engineering the application of a systematic, disciplined, quantifiable approach to the development, operation and maintenance of software and the study of these approaches; that is, the application of engineering and computer science to software."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Theoretical_computer_science\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_35_1543237771642",
+      "metadata": {},
+      "conditions": "@engineering_branches:(Software engineering)",
+      "dialog_node": "node_41_1543237771642",
+      "previous_sibling": "node_40_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Civil engineering",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Civil engineering is the design and construction of public and private works, such as infrastructure (airports, roads, railways, water supply, and treatment etc.), bridges, tunnels, dams, and buildings. Civil engineering is traditionally broken into a number of sub-disciplines, including structural engineering, environmental engineering, and surveying. It is traditionally considered to be separate from military engineering"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Civil_engineering\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_35_1543237771642",
+      "metadata": {},
+      "conditions": "@engineering_branches:(Civil engineering)",
+      "dialog_node": "node_39_1543237771642",
+      "previous_sibling": "node_38_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Chemical engineering",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Chemical engineering is the application of physics, chemistry, biology, and engineering principles in order to carry out chemical processes on a commercial scale, such as the manufacture of commodity chemicals, specialty chemicals, petroleum refining, microfabrication, fermentation, and biomolecule production."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Chemical_engineering\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_35_1543237771642",
+      "metadata": {},
+      "conditions": "@engineering_branches:(Chemical engineering)",
+      "dialog_node": "node_38_1543237771642",
+      "previous_sibling": "node_37_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "Aerospace engineering",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Aerospace systems such as aircraft, spacecraft and ground control systems, primarily on the systems level. Often categorized within vehicle engineering.\t\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_35_1543237771642",
+      "metadata": {},
+      "conditions": "@engineering_branches:(Aerospace engineering)",
+      "dialog_node": "node_36_1543237771642"
+    },
+    {
+      "type": "standard",
+      "title": "True",
+      "output": {
+        "text": {
+          "values": [
+            "test test"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_14_1543224334037",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_7_1543362975041"
+    },
+    {
+      "type": "standard",
+      "title": "3D printing",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "3D printing is any of various processes in which material is joined or solidified under computer control to create a three-dimensional object, with material being added together (such as liquid molecules or powder grains being fused together)."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "3D printing is used in both rapid prototyping and additive manufacturing. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/3D_printing\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1543215092236",
+      "metadata": {},
+      "conditions": "@technology_branches:(3D Printing)",
+      "dialog_node": "node_14_1543224334037",
+      "previous_sibling": "node_13_1543224211826"
+    },
+    {
+      "type": "standard",
+      "title": "Cancer vaccines",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "A cancer vaccine is a vaccine that treats existing cancer or prevents the development of cancer in certain high-risk individuals. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Vaccines that treat existing cancer are known as therapeutic cancer vaccines. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Cancer_vaccine\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1543215092236",
+      "metadata": {},
+      "conditions": "@technology_branches:(Cancer vaccines)",
+      "dialog_node": "node_13_1543224211826",
+      "previous_sibling": "node_12_1543224159607"
+    },
+    {
+      "type": "standard",
+      "title": "Gene therapy",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "In the medicine field, gene therapy (also called human gene transfer) is the therapeutic delivery of nucleic acid into a patient's cells as a drug to treat disease."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Gene_therapy\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1543215092236",
+      "metadata": {},
+      "conditions": "@technology_branches:(Gene therapy)",
+      "dialog_node": "node_12_1543224159607",
+      "previous_sibling": "node_11_1543224062820"
+    },
+    {
+      "type": "standard",
+      "title": "Artificial intelligence",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Artificial intelligence (AI) is the sub intelligence exhibited by machines or software, and the branch of computer science that develops machines and software with animal-like intelligence. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "The central problems (or goals) of AI research include reasoning, knowledge, planning, learning, natural language processing (communication), perception and the ability to move and manipulate objects."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Artificial_intelligence\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1543215092236",
+      "metadata": {},
+      "conditions": "@technology_branches:(Artificial intelligence)",
+      "dialog_node": "node_15_1543224418323",
+      "previous_sibling": "node_14_1543224334037"
+    },
+    {
+      "type": "standard",
+      "title": "Nanotechnology",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Nanotechnology (sometimes shortened to nanotech) is the manipulation of matter on an atomic, molecular, and supramolecular scale."
+              },
+              {
+                "text": "The earliest, widespread description of nanotechnology referred to the particular technological goal of precisely manipulating atoms and molecules for fabrication of macroscale products, also now referred to as molecular nanotechnology."
+              },
+              {
+                "text": "Nanotechnology as the manipulation of matter with at least one dimension sized from 1 to 100 nanometers. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "This definition reflects the fact that quantum mechanical effects are important at this quantum-realm scale, and so the definition shifted from a particular technological goal to a research category inclusive of all types of research and technologies that deal with the special properties of matter that occur below the given size threshold."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Nanotechnology\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1543215092236",
+      "metadata": {},
+      "conditions": "@technology_branches:Nanotechnology",
+      "dialog_node": "node_11_1543224062820",
+      "previous_sibling": "node_13_1543215092236"
+    },
+    {
+      "type": "standard",
+      "title": "Robotics",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Robotics is the branch of technology that deals with the design, construction, operation, and application of robots,[30] as well as computer systems for their control, sensory feedback, and information processing. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "These technologies deal with automated machines that can take the place of humans in dangerous environments or manufacturing processes, or resemble humans in appearance, behavior, and/or cognition."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "Learn more at <a href=\"https://en.wikipedia.org/wiki/Robotics\">this link</a>."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_12_1543215092236",
+      "metadata": {},
+      "conditions": "@technology_branches:Robotics",
+      "dialog_node": "node_13_1543215092236"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_9_1543215003384",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_12_1543363636346"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1543361819706",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1543361819706",
+      "previous_sibling": "handler_4_1543361819706"
+    },
+    {
+      "type": "event_handler",
+      "parent": "slot_3_1543361819706",
+      "event_name": "input",
+      "dialog_node": "handler_4_1543361819706"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_35_1543215131176",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_19_1543363835257"
+      },
+      "conditions": "true",
+      "dialog_node": "node_23_1543363856071"
+    },
+    {
+      "type": "standard",
+      "title": "true",
+      "output": {
+        "text": {
+          "values": [],
+          "selection_policy": "sequential"
+        }
+      },
+      "parent": "node_13_1543215092236",
+      "metadata": {},
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1543211954662"
+      },
+      "conditions": "true",
+      "dialog_node": "node_14_1543363738527"
+    },
+    {
+      "type": "standard",
+      "title": "Factors affecting women in STEM",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Many scholars and policymakers have noted that the fields of science, technology, engineering, and mathematics (STEM) have remained predominantly male with historically low participation among women since their origins during the Age of Enlightenment."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "There are a variety of proposed reasons for the relatively low number of women in STEM fields. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "These can be broadly classified into societal, psychological, and innate explanations. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "",
+            "options": [
+              {
+                "label": "Societal",
+                "value": {
+                  "input": {
+                    "text": "Societal"
+                  }
+                }
+              },
+              {
+                "label": "psychological",
+                "value": {
+                  "input": {
+                    "text": "psychological"
+                  }
+                }
+              },
+              {
+                "label": "innate explanations",
+                "value": {
+                  "input": {
+                    "text": "innate explanations"
+                  }
+                }
+              }
+            ],
+            "description": "Remove this later",
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#factors_affecting_stem",
+      "dialog_node": "node_48_1543238650530",
+      "previous_sibling": "node_18_1543237771625"
+    },
+    {
+      "type": "standard",
+      "title": "Positive Feedback",
+      "output": {
+        "text": {
+          "values": [
+            "That's really sweet of you! ",
+            "That's really nice to hear! ",
+            "I might get diabetes if you are this sweet! ",
+            "Thank you! You are really nice! "
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Positive_Feedback",
+      "dialog_node": "node_7_1543221385048",
+      "previous_sibling": "node_9_1543221944490"
+    },
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "text": {
+          "values": [
+            "I didn't understand. You can try rephrasing.",
+            "Can you reword your statement? I'm not understanding.",
+            "I didn't get your meaning."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_5_1543221003738"
+    },
+    {
+      "type": "standard",
+      "title": "Negative Feedback",
+      "output": {
+        "text": {
+          "values": [
+            "That's not very nice...",
+            "I am sorry I don't like your tone...",
+            "That was rude...",
+            "Stop being mean to me..."
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Negative_Feedback",
+      "dialog_node": "node_8_1543221426961",
+      "previous_sibling": "node_7_1543221385048"
+    },
+    {
+      "type": "standard",
+      "title": "About you",
+      "output": {
+        "text": {
+          "values": [
+            "That sounds like a very personal question...",
+            "I am shy... I don't know what to say...",
+            "I'd rather just talk about STEM you know...?"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_About_You",
+      "dialog_node": "node_3_1543220274135",
+      "previous_sibling": "node_2_1543220129818"
+    },
+    {
+      "type": "frame",
+      "title": "Learn Stem",
+      "output": {},
+      "metadata": {
+        "fallback": "leave",
+        "_customization": {
+          "mcr": true
+        }
+      },
+      "conditions": "#learn_stem || @stem_components",
+      "digress_in": "returns",
+      "dialog_node": "node_1_1543207382186",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_4_1543220646124",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "standard",
+      "title": "Bot or user",
+      "output": {
+        "text": {
+          "values": [
+            "I wish I was a human, but my creator said I need to be at least 18 for that... :(",
+            "I am a bot, but I can connect you to a human if you want? ",
+            "I am a bot",
+            "I am MariamBot"
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Human_or_Bot",
+      "dialog_node": "node_9_1543221944490",
+      "previous_sibling": "node_52_1543242366485"
+    },
+    {
+      "type": "standard",
+      "title": "Women in STEM",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Over the years, several woman have made prominent contributions to STEM related fields"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "What field would you like to explore to find out more about their achievements? "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#Women_in_stem",
+      "dialog_node": "node_18_1543237771625",
+      "previous_sibling": "node_1_1543207382186"
+    },
+    {
+      "type": "standard",
+      "title": "Jokes",
+      "output": {
+        "text": {
+          "values": [
+            "Jack: Why was the robot angry?\nBen: Beats me.\nJack: Because someone kept pushing his buttons!",
+            "Ron: What is a robot’s favorite type of music?\nJohn: I really don’t know.\nRon: Heavy metal!",
+            "Ben: How many robots does it take to screw in a light bulb?\nJohn: I haven’ t a clue.\nBen: Three — one to hold the bulb, and two to turn the ladder!",
+            "Griffin: Why did the robot go back to robot school?\nBrent: Tell me.\nGriffin: Because his skills were getting a little rusty!",
+            "Lance: What do you get when you cross a robot and a tractor?\nLuke: Dunno. What?\nLance: A trans-farmer!",
+            "Billy: What did the man say to his dead robot?\nBob: What?\nBilly: “Rust in peace.”",
+            "All these Robot jokes\n\nI’m nuts and bolts about them all"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Jokes",
+      "dialog_node": "node_6_1543221206117",
+      "previous_sibling": "node_8_1543221426961"
+    },
+    {
+      "type": "standard",
+      "title": "Increasing women in STEM",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "There are a multitude of factors that may explain the low representation of women in STEM careers. However there are ways to increase the representation of women in STEM. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<b>Social-psychological interventions</b>\nA number of researchers have tested interventions to alleviate stereotype threat for women in situations where their math and science skills are being evaluated. The hope is that by combating stereotype threat, these interventions will boost women's performance, encouraging a greater number of them to persist in STEM careers."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<b>Role models</b>\nOne of the proposed methods for alleviating stereotype threat is through introducing role models."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<b>Self-affirmation</b>\nResearchers have investigated the usefulness of self-affirmation in alleviating stereotype threat. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "values": [
+              {
+                "text": "<b>Organized efforts</b>\nOrganizations such as Girls Who Code, StemBox,[132] Blossom, Engineer Girl, Girls Can Code in Afghanistan, @IndianGirlsCode, and Kode with Klossy (spearheaded by supermodel Karlie Kloss) aim to encourage women and girls to explore male-dominated STEM fields. "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "#increasing_women_in_stem",
+      "dialog_node": "node_52_1543242366485",
+      "previous_sibling": "node_48_1543238650530"
+    },
+    {
+      "type": "standard",
+      "title": "Greetings",
+      "output": {
+        "text": {
+          "values": [
+            "Hey! What would you like to know? ",
+            "Hello! What can I tell you about? ",
+            "Hey there! Is there something you'd like to know? ",
+            "Hi! What can I help you with? "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Greetings",
+      "dialog_node": "node_2_1543220129818",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Agent Capabilities",
+      "output": {
+        "text": {
+          "values": [
+            "I am a Watson Assistant here to help you understand STEM and more specifically topics revolving around woman in STEM.",
+            "You can ask me questions on STEM. I can also help you understand what role women play in STEM. ",
+            "My creator created me to help you understand more about STEM and guide you by telling you more about careers in STEM with highlights on the role women play in the field. "
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Agent_Capabilities",
+      "dialog_node": "node_4_1543220646124",
+      "previous_sibling": "node_3_1543220274135"
+    },
+    {
+      "type": "standard",
+      "title": "Ending",
+      "output": {
+        "text": {
+          "values": [
+            "Alright! Bye bye then! ",
+            "It was fun talking to you! I hope you had fun too! ",
+            "See ya! ",
+            "I hope you got a better understanding on what STEM is and how you can get into it! Take care! ",
+            "Alright, I'll talk to you later! Give me a ring if there is anything else you need! "
+          ],
+          "selection_policy": "random"
+        }
+      },
+      "metadata": {},
+      "conditions": "#General_Ending",
+      "dialog_node": "node_5_1543221003738",
+      "previous_sibling": "node_6_1543221206117"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hey there! I am Mariam! I'm a chat assistant to help you understand more about STEM, and more importantly STEM for woman. Feel free to ask me about STEM, woman in STEM, how to get into STEM, or even just a joke! "
+              },
+              {
+                "text": "Hey there! I'm Mariam!"
+              },
+              {
+                "text": "Hi! I'm Mariam! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          },
+          {
+            "title": "Get started with some of the following questions!",
+            "options": [
+              {
+                "label": "What is STEM?",
+                "value": {
+                  "input": {
+                    "text": "What is stem?"
+                  }
+                }
+              },
+              {
+                "label": "Women in STEM",
+                "value": {
+                  "input": {
+                    "text": "Tell me more about notable women in STEM"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "workspace_id": "4c693b11-b1ae-4606-938c-04d01bd02ba3",
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "status": "Available"
+}
