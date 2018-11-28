@@ -12,6 +12,16 @@ This Node.js app demonstrates the [Watson Assistant](https://www.ibm.com/watson/
 <a name="returnlocal">
 </a>
 
+### Building locally
+
+To build the application:
+
+1. Clone the repository
+   ```
+   git clone https://github.com/bedangSen/Watson-STEM-for-Women-ChatBot.git .
+   ```
+
+
 ### Create the services
 
 1. In IBM Cloud, [create a Watson Assistant Service instance](https://console.bluemix.net/registration/?target=/catalog/services/conversation/).
@@ -22,15 +32,6 @@ This Node.js app demonstrates the [Watson Assistant](https://www.ibm.com/watson/
 2. In IBM Cloud, [create a Discovery Service instance](https://console.bluemix.net/registration/?target=/catalog/services/discovery/).
   * Create the [Service Credentials](#credentials).
   * [Ingest the documents into a new Discovery collection](#ingestion).
-
-### Building locally
-
-To build the application:
-
-1. Clone the repository
-   ```
-   git clone https://github.com/bedangSen/Watson-STEM-for-Women-ChatBot.git .
-   ```
 
 
 ### Configuring workspace
