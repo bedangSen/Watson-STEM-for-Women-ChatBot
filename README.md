@@ -17,7 +17,7 @@ This Node.js app demonstrates the [Watson Assistant](https://www.ibm.com/watson/
 1. In IBM Cloud, [create a Watson Assistant Service instance](https://console.bluemix.net/registration/?target=/catalog/services/conversation/).
   * Create the Service Credentials.
   * Launch the tool and create a new skill from the skill tab 
-  * Import a skill using the `skills.json` file.
+  * Import a skill using the `training/skills.json` file.
 
 2. In IBM Cloud, [create a Discovery Service instance](https://console.bluemix.net/registration/?target=/catalog/services/discovery/).
   * Create the [Service Credentials](#credentials).
