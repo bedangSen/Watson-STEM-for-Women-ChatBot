@@ -7,7 +7,7 @@ This Node.js app demonstrates the [Watson Assistant](https://www.ibm.com/watson/
 
 ### Before you begin
 
--  Ensure that you have an [IBM Cloud account][sign_up]. While you can do part of this deployment locally, you must still use IBM Cloud.
+-  Ensure that you have an [IBM Cloud account][sign_up](http://ibm.biz/stemforemiratis). While you can do part of this deployment locally, you must still use IBM Cloud.
 
 <a name="returnlocal">
 </a>
