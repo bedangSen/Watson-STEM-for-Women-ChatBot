@@ -20,8 +20,8 @@ You can create a simple web application using the Watson Assistant Starter Kit. 
 1. Download the skill json file from `training/skills.json`. 
 1. Launch the tool and create a new Skill by clicking on the skills tab.
 1. Click on the import tab and import the downloaded skills file, `training/skills.json`. 
-1. Go back to the Watson Assistant Starter kit workspace and download and extract the code into your preffered destination. 
-1. Continue with either [running it locally](#running-locally) or [deplying it to the cloud](#Deploying-to-IBM-Cloud-as-a-CloudFoundry-application). 
+1. Go back to the Watson Assistant Starter kit workspace and download and extract the code into your preferred destination. 
+1. Continue with either [running it locally](#running-locally) or [deploying it to the cloud](#Deploying-to-IBM-Cloud-as-a-CloudFoundry-application). 
 
 
 
@@ -54,7 +54,7 @@ The following steps are to optionally retrieve a workspace id and configure it f
 
 1. Click the dots in the upper right hand corner for the workspace you want and click **View details**
 
-1. Copy the `Workspace ID` and add this as an environment variable labeled `WORKSPACE_ID` in your application
+1. Copy the `Workspace ID` and add this as an environment variable labelled `WORKSPACE_ID` in your application
 
 ### Running locally
 
