@@ -12,6 +12,19 @@ This Node.js app demonstrates the [Watson Assistant](https://www.ibm.com/watson/
 <a name="returnlocal">
 </a>
 
+### Building using the Watson Assistant Starter Kit
+
+You can create a simple web application using the Watson Assistant Starter Kit. This starter kit is a simple application to demonstrate the Watson Assistant (formerly Conversation) service in a chat interface simulating a car dashboard. We use this as a template to build the chatbot. 
+
+1. Create a [Watson Assistant Starter Kit Application](https://console.bluemix.net/developer/watson/starter-kits/watson-assistant-basic) with the language of your choice.
+1. Download the skill json file from `training/skills.json`. 
+1. Launch the tool and create a new Skill.
+1. Click on the import tab and import the downloaded skills file, `training/skills.json`. 
+1. Go back to the Watson Assistant Starter kit workspace and download and extract the code into your preffered destination. 
+1. Continue with either [running it locally] or [deplying it to the cloud](#Deploying-to-IBM-Cloud-as-a-CloudFoundry-application). 
+
+
+
 ### Building locally
 
 To build the application:
