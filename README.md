@@ -18,7 +18,7 @@ You can create a simple web application using the Watson Assistant Starter Kit. 
 
 1. Create a [Watson Assistant Starter Kit Application](https://console.bluemix.net/developer/watson/starter-kits/watson-assistant-basic) with the language of your choice.
 1. Download the skill json file from `training/skills.json`. 
-1. Launch the tool and create a new Skill.
+1. Launch the tool and create a new Skill by clicking on the skills tab.
 1. Click on the import tab and import the downloaded skills file, `training/skills.json`. 
 1. Go back to the Watson Assistant Starter kit workspace and download and extract the code into your preffered destination. 
 1. Continue with either [running it locally](#running-locally) or [deplying it to the cloud](#Deploying-to-IBM-Cloud-as-a-CloudFoundry-application). 
